@@ -17,16 +17,6 @@ html, body, {
 	padding: 0;
 }
 
-pre {
-	white-space: pre-wrap;
-	background-color: #23241f;
-    color: #f8f8f2;
-    margin-bottom: 5px;
-    border-radius: 3px;
-    margin-top: 5px;
-    padding: 5px 10px;
-}
-
 .container{
 	min-height: 96dvh;
 }
@@ -78,6 +68,16 @@ img {
     -webkit-user-drag: none;
 }
 
+pre {
+	white-space: pre-wrap;
+	background-color: #23241f;
+    color: #f8f8f2;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
 #postcontainer {
 	display: flex;
 	flex-direction: column-reverse;
@@ -111,4 +111,14 @@ body {
     width: 200px;    
     background-color: var(--bgcolour);
     padding: var(--padding);
+}
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        max-width: 93dvw;
+    }
 }
