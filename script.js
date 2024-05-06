@@ -71,7 +71,7 @@ function loadPosts() {
     };
 
     // Replace :owner and :repo with your GitHub repository owner and repository name
-    xhr.open("GET", "https://api.github.com/repos/apriltilde/posts/contents", true);
+    xhr.open("GET", "https://api.github.com/repos/OWNER/REPO/contents", true);
     xhr.send();
 }
 
