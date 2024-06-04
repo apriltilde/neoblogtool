@@ -71,6 +71,8 @@ p {
 
 img {
     -webkit-user-drag: none;
+	height: auto;
+	max-width: 100%;
 }
 
 pre {
