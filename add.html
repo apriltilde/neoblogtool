@@ -171,7 +171,7 @@ function saveHtmlContent(htmlContent, tags = '') {
     };
 
     // Make a PUT request to GitHub API
-    fetch("https://api.github.com/repos/OWNER/REPO/contents/" + fileName, {
+    fetch("https://api.github.com/repos/apriltilde/posts/contents/" + fileName, {
         method: "PUT",
         headers: {
             "Authorization": "Bearer " + token,
